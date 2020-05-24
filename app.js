@@ -26,15 +26,19 @@ const app = {
             let displayLoser = document.getElementById('loser')
             let displayWinner = document.getElementById('winner')
             let rolling = document.getElementById('rolling');
+            let fiveStars = document.getElementById("fiveStars")
+            let threeStars = document.getElementById("threeStars")
 
             displayLoser.style.display = "none";
             displayWinner.style.display = "block";
-            title.style.display = "none";
+            title.textContent = "grats on your brandon";
 
             rolling.textContent = "reroll"
 
+            fiveStars.style.display = "block";
+            threeStars.style.display = "none";
 
-
+            
         }else{
             console.log(app.whatIRolled)
             console.log("sad");
@@ -43,14 +47,18 @@ const app = {
             let displayWinner = document.getElementById('winner')
             let title = document.getElementById('title')
             let rolling = document.getElementById('rolling');
+            let fiveStars = document.getElementById("fiveStars")
+            let threeStars = document.getElementById("threeStars")
 
 
+            title.textContent = "womp womp womp on your yuki";
             displayLoser.style.display = "block";
             displayWinner.style.display = "none";
-            title.style.display = "none";
 
             rolling.textContent = "reroll"
 
+            fiveStars.style.display = "none";
+            threeStars.style.display = "block";
 
         };
 
