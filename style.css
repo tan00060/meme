@@ -1,0 +1,17 @@
+#loser{
+    display: none;
+}
+
+#content{
+    text-align: -webkit-center;
+}
+
+
+#button{
+    padding-top: 200px;
+    text-align: center;
+}
+
+#winner{
+    display: none;
+}
