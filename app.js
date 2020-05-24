@@ -25,10 +25,14 @@ const app = {
             let title = document.getElementById('title')
             let displayLoser = document.getElementById('loser')
             let displayWinner = document.getElementById('winner')
+            let rolling = document.getElementById('rolling');
 
             displayLoser.style.display = "none";
             displayWinner.style.display = "block";
             title.style.display = "none";
+
+            rolling.textContent = "reroll"
+
 
 
         }else{
@@ -38,10 +42,14 @@ const app = {
             let displayLoser = document.getElementById('loser')
             let displayWinner = document.getElementById('winner')
             let title = document.getElementById('title')
+            let rolling = document.getElementById('rolling');
+
 
             displayLoser.style.display = "block";
             displayWinner.style.display = "none";
             title.style.display = "none";
+
+            rolling.textContent = "reroll"
 
 
         };
