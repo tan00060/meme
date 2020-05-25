@@ -43,12 +43,18 @@ const app = {
             console.log(app.whatIRolled)
             console.log("sad");
 
+            let random = Math.floor(Math.random() * 361);
+
             let displayLoser = document.getElementById('loser')
             let displayWinner = document.getElementById('winner')
             let title = document.getElementById('title')
             let rolling = document.getElementById('rolling');
             let fiveStars = document.getElementById("fiveStars")
             let threeStars = document.getElementById("threeStars")
+
+            displayLoser.style.transform = `rotateZ(${random}deg)`
+
+            
 
 
             title.textContent = "womp womp womp on your yuki";
